@@ -1,0 +1,13 @@
+.footer-container {
+    display: flex;
+    width: 100%;
+}
+
+.footer-container h3 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer {
+    text-align: end;
+}

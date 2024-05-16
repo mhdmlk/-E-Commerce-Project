@@ -1,0 +1,76 @@
+.container-rgstr {
+    display: flex;
+}
+
+.form-rgstr {
+    position: fixed;
+    margin-top: 10%;
+    margin-left: 70%;
+    box-shadow: 0 0 1rem black;
+    padding: 50px;
+}
+
+.heading-rgstr {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10%;
+    color: white;
+    text-align: center;
+}
+
+.form-rgstr label {
+    color: rgb(175, 176, 176);
+    font-weight: 800;
+    text-align: center;
+}
+
+.form-rgstr button {
+    color: rgb(106, 108, 108);
+    font-weight: 600;
+    margin-left: 30%;
+}
+
+.left-container-rgstr,
+.right-container-rgstr {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.left-container-rgstr {
+    background: rgb(72, 72, 72);
+    width: 30%;
+
+}
+
+.right-container-rgstr {
+    background: linear-gradient(-45deg, rgb(227, 71, 162), rgb(72, 72, 72)80%);
+    width: 70%;
+}
+
+.design .circle {
+    aspect-ratio: 1;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.circle:nth-child(1) {
+    width: 28rem;
+    background: linear-gradient(90deg, transparent 50%, rgb(72, 72, 72)50%);
+}
+
+.circle:nth-child(2) {
+    width: 20rem;
+    background-image: url("client/public/portfolio img.jpg");
+    background: rgb(255, 255, 255);
+    border: 10px solid white;
+    box-shadow: 0 0 1rem rgb(255, 255, 255),
+        inset 0 0 1rem rgb(255, 255, 255),
+        0 0 3rem rgb(227, 71, 162),
+        inset 0 0 1rem rgb(227, 71, 162),
+        0 0 4rem rgb(227, 71, 162),
+        inset 0 0 3rem rgb(227, 71, 162);
+}

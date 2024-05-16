@@ -1,0 +1,10 @@
+.heading-services{
+    text-align: center;
+    font-size: 40px;
+}
+.services-container{
+    display: flex;
+    justify-content: space-around;
+}
+ .icons{
+text-align: center;}

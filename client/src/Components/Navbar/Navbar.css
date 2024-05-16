@@ -1,0 +1,17 @@
+.navbar {
+    width: 100%;
+    position: relative;
+}
+
+.navbar ul {
+    font-weight: 900;
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+ul .links{
+    text-decoration: none;
+    color: #000000;
+}

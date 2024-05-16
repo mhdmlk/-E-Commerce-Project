@@ -1,0 +1,7 @@
+.marquree-image{
+    height: 100px;
+}
+.brands-container {
+    justify-content: space-between;
+gap: 3;
+}

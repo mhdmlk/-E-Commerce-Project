@@ -1,0 +1,19 @@
+.promo-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    box-shadow: 0 0 3px black;
+    margin: 12px;
+    padding: 5px;
+}
+
+.promo-img {
+    height: 190px;
+    width: 50%;
+}
+
+.promo-img:hover {
+    opacity: 0.75;
+    cursor: pointer;
+
+}
